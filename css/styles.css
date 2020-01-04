@@ -87,6 +87,16 @@ header {
   color: #343434;
 }
 
+.btn {
+  color: #F7FFF7;
+  background: #0366d6;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
 
 /* Projects
 ------------------------------------*/
@@ -94,11 +104,11 @@ header {
   background: #FCF5C7;
 }
 .projects a {
-  color: #2F3061;
+  color: ##0366d6;
 }
 .projects .btn {
   color: #F7FFF7;
-  background: #2F3061;
+  background: ##0366d6;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -149,4 +159,30 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+/* Work Experience List
+------------------------------------*/
+nav {
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
 }
