@@ -35,7 +35,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
-img {
+.projects img {
   width: 300px;
 }
 a {
@@ -155,9 +155,10 @@ footer {
 .contact-list {
   list-style-type: none;
   padding: 0;
+  margin-left: -27px;
 }
 .contact-list a {
-  padding: 15px;
+  padding: 15px 25px;
   display: inline-block;
 }
 
@@ -185,4 +186,55 @@ nav li a {
 
 nav li a:hover {
   background-color: #111;
+}
+
+
+/* Footer
+------------------------------------*/
+
+footer {
+  padding-bottom: 40px;
+}
+
+footer li {
+  float: left;
+}
+
+footer li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  background-color: #111;
+}
+
+/* My Hobbies Styles
+------------------------------------*/
+
+.hobbies {
+  background: #9BD6EB;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+.column {
+  overflow: visible;
+  width: 33%;
+  float: left;
+  padding: 0 8px;
+}
+
+.column img {
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.column img:hover {
+  transition: 300ms;
+  box-shadow: 0px 8px 16px rgba(16, 35, 63, 0.25);
 }
